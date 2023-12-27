@@ -62,10 +62,10 @@ ping www.google.com, ping Vm2 private ip -t should be pinging non-stop
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-On Azure go to Vm2 NSG (network security group), inbound security rules, + (create rule), ICMP deny, priority 200 first rule to obey,
+On Azure go to Vm2 NSG (network security group), inbound security rules, + (create rule), protocol ICMP, action deny, priority 200 first rule to obey, name blockincomingICMPtraffic
 Vm1 desktop ping should be timed out, go to Azure Vm2 NSG menu to change the rule allow ICMP traffic coming thru go to Vm1 desktop
 ICMP traffic will start coming in again to stop constant ping control c 
-
+Wireshark (clear out packet info), 
 </p>
 <br />
 
