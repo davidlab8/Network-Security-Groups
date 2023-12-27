@@ -67,7 +67,7 @@ Vm1 desktop ping should be timed out, go to Azure Vm2 NSG menu to change the rul
 ICMP traffic will start coming in again to stop constant ping control c 
 Wireshark (clear out packet info), Powershell gonna explore SSH traffic (type) ssh username@Vm2privateip, will show SSH protocols wanna continue yes, type password (password will not show type it careful to get it right), when entered correctly letterig will be green 
 (username@Vm2) command line linux, type in following command to see the traffic pwd, id, uname -a, ls -lasth to end linux connection
-(type) exit will take you back 
+(type) exit
 </p>
 <br />
 
@@ -75,6 +75,7 @@ p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Filter SSH traffic on Wireshark on filter column type tcp, udp it will show you traffic for those protocols 
+Powershell ipconfig /renew action will assign new ipaddress nslookup www.google.com will show ipaddress google uses 
 </p>
 <br />
