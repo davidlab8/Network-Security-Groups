@@ -65,7 +65,9 @@ ping www.google.com, ping Vm2 private ip -t should be pinging non-stop
 On Azure go to Vm2 NSG (network security group), inbound security rules, + (create rule), protocol ICMP, action deny, priority 200 first rule to obey, name blockincomingICMPtraffic
 Vm1 desktop ping should be timed out, go to Azure Vm2 NSG menu to change the rule allow ICMP traffic coming thru go to Vm1 desktop
 ICMP traffic will start coming in again to stop constant ping control c 
-Wireshark (clear out packet info), 
+Wireshark (clear out packet info), Powershell gonna explore SSH traffic (type) ssh username@Vm2privateip, will show SSH protocols wanna continue yes, type password (password will not show type it careful to get it right), when entered correctly letterig will be green 
+(username@Vm2) command line linux, type in following command to see the traffic pwd, id, uname -a, ls -lasth to end linux connection
+(type) exit will take you back 
 </p>
 <br />
 
