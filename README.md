@@ -27,10 +27,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>High-Level Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- Step 1. Create Resource Group, VPN, two VM's with windows 10 and Linux
+          Connect VM1 to remote desktop.
+  
+- Step 2. Download, install Wireshark (to monitor traffic)
+          Put Powershell on (to type commands) ping Vm2ipaddress, www.google.com, Vm2 -t(ping Vm2 non-stop)
+  
+- Step 3. VMm2 NSG create a rule to stop ICMP traffic coming in, change the rule back to accept the rule
+          Explore SSH traffic log in to linux type following commands pwd, id, uname -a, ls -lasth, exit linux
+
+- Step 4. Filter SSH traffic type TCP port command ipconfig \renew, nslookup www.google.com 
 
 <h2>Actions and Observations</h2>
 
