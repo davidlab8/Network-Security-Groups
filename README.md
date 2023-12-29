@@ -66,7 +66,7 @@ Step 3A. Azure go to Vm2 NSG (network security group), inbound security rules, +
 3B//Vm1 desktop ping should be timed out, go to Azure Vm2 NSG menu to change the rule allow ICMP traffic coming thru go to Vm1 desktop 
 ICMP traffic will start coming in again to stop constant ping control C Wireshark (clear out packet info).
 3C//Powershell gonna explore SSH traffic (type) ssh username@Vm2privateip, will show SSH protocols wanna continue yes, type password (password will not show type it careful to get it right), when entered correctly lettering will be green.
-3D//(username@Vm2) command line linux, type in following command to see the traffic pwd, id, uname -a, ls -lasth to end linux connection (type) exit
+3D//(username@Vm2) command line linux, type in following command to see the traffic pwd, id, uname -a, ls -lasth to end linux connection (type) exit .
 </p>
 <br />
 
