@@ -74,9 +74,9 @@ ICMP traffic will start coming in again to stop constant ping control C Wireshar
 </p>
 <br />
 
+![34C89D46-66D8-4FD9-B827-AC2BE7F15B68](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/fff76566-507f-4279-b54c-cf97f7db1a01)
 
-
-
+![27617A0B-A6E8-483E-AC18-F5EA511EDAFC](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/a65bf546-41cf-4845-adee-e73c9544ba21)
 
 Step 4. Filter SSH traffic on Wireshark on filter column type tcp, udp it will show you traffic for those protocols 
 Powershell ipconfig /renew action will assign new ipaddress nslookup www.google.com will show ipaddress google uses 
