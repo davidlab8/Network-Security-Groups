@@ -44,16 +44,15 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 ![08D0DA8C-462B-4582-AAA8-B10E825F1D73](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/7cb704cf-c432-40e7-b66f-9ede489da391)
 
-
 Step. 1 Azure create the following: RG, VPN, Vm1 (windows 10), Vm2 (linux) once those are set up
 copy Vm1 public ipaddress paste to remote desktop, to connect Vm1 desktop 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![09845811-1DC7-4FA6-ACEB-6F32BFE1B586](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/24dab620-5a69-4546-9e1c-fb673b676b7d)
+
+![13FC417A-F4D4-4872-AC5F-DF70F51D0D1F](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/b949f09e-4c54-4801-91db-ab9e91c341c3)
+
 Step 2. Download Wireshark analyzer, install Wireshark 64bit software, (type) ICMP to stop traffic flow, start, Powershell, have both windows side by side, ping Vm2 to see both Vm's communicate with each other see the traffic on Wireshark and command from Powershell 
 ping www.google.com, ping Vm2 private ip -t should be pinging non-stop 
 </p>
