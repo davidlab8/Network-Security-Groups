@@ -62,21 +62,22 @@ ping www.google.com, ping Vm2 private ip -t should be pinging non-stop
 
 ![F868048A-B917-4865-BC5C-FCA01BA6BD7B](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/d3ba3ff8-4e9e-4914-a970-7cac55402e9b)
 
-[IMG_0984.heic.zip](https://github.com/davidlab8/Network-Security-Groups/files/13798042/IMG_0984.heic.zip)
+![IMG_0989](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/9bb05881-aaa4-4f60-bd32-41166c0da069)
 
+![IMG_0992](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/d910eedb-73a8-48ba-bf8c-bd9a13ccf7e8)
 
 Step 3A. Azure go to Vm2 NSG (network security group), inbound security rules, + (create rule), protocol ICMP, action deny, priority 200 first rule to obey, name blockincomingICMPtraffic. 
 3B//Vm1 desktop ping should be timed out, go to Azure Vm2 NSG menu to change the rule allow ICMP traffic coming thru go to Vm1 desktop 
 ICMP traffic will start coming in again to stop constant ping control C Wireshark (clear out packet info).
-3C//Powershell gonna explore SSH traffic (type) ssh username@Vm2privateip, will show SSH protocols wanna continue yes, type password (password will not show type it careful to get it right), when entered correctly lettering will be green.
+3C//Powershell gonna explore SSH traffic (type) ssh on wireshark filter column, powershell ssh username@Vm2privateip, will show SSH protocols wanna continue yes, type password (password will not show type it careful to get it right), when entered correctly lettering will be green.
 3D//(username@Vm2) command line linux, type in following command to see the traffic pwd, id, uname -a, ls -lasth to end linux connection (type) exit .
 </p>
 <br />
 
-p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+
+
+
+
 Step 4. Filter SSH traffic on Wireshark on filter column type tcp, udp it will show you traffic for those protocols 
 Powershell ipconfig /renew action will assign new ipaddress nslookup www.google.com will show ipaddress google uses 
 </p>
