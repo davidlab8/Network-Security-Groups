@@ -40,10 +40,11 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
+![3DC37402-CF1D-4315-A528-BE7EC4E5BD23](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/da115f00-1905-4b53-9f79-53a119c43032)
+
+![08D0DA8C-462B-4582-AAA8-B10E825F1D73](https://github.com/davidlab8/Network-Security-Groups/assets/154483052/7cb704cf-c432-40e7-b66f-9ede489da391)
+
+
 Step. 1 Azure create the following: RG, VPN, Vm1 (windows 10), Vm2 (linux) once those are set up
 copy Vm1 public ipaddress paste to remote desktop, to connect Vm1 desktop 
 </p>
